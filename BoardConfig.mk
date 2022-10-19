@@ -239,3 +239,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit proprietary blobs
 include vendor/xiaomi/renoir/BoardConfigVendor.mk
+
+# Firmware
+include vendor/xiaomi/renoir-firmware/BoardConfigVendor.mk
