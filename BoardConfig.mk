@@ -36,3 +36,6 @@ include vendor/xiaomi/renoir/BoardConfigVendor.mk
 
 # Firmware
 include vendor/xiaomi/renoir-firmware/BoardConfigVendor.mk
+
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/renoir-miuicamera/products/board.mk
