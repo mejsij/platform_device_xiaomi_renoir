@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_renoir.mk
+    $(LOCAL_DIR)/spark_renoir.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_renoir-user \
-    tequila_renoir-userdebug \
-    tequila_renoir-eng
+    spark_renoir-user \
+    spark_renoir-userdebug \
+    spark_renoir-eng
